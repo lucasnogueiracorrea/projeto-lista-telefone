@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#box-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #0265c9, #0265c986  );
+    color: white;
+}
+
+#box-principal > h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.827);
+}
+
+#box-contact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-input{
+    width: 220px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.box-label{
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.827);
+}
+
+#obs-contact{
+    width: 220px;
+    height: 30px;
+    text-align:initial;
+}
+
+#btn-add-contact{
+    border-radius: 8px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+#btn-add-contact:hover{
+    background-color: #09E01B;
+    color: white;
+    cursor: pointer;
+}
+
+#box-secundaria{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#list-info-contact{
+
+    list-style: none;
+}
+
+#li-info-contact{
+    background-color: #ffd600;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    transition: 1s;
+}
+#li-info-contact > ion-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+#li-info-contact > ion-icon:hover{
+    background-color: #ED0927;
+    color: white;
+}
+
+.li-span{
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.box-ref{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3px;
+
+}
+
+#title > h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-shadow: 3px 3px 5px #ffd50094;
+    color: rgba(0, 0, 0, 0.816);
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
